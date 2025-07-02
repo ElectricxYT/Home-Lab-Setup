@@ -1,4 +1,4 @@
-# PROJECTNAME
+# Setting Up a Home Lab
 
 ## Objective
 
