@@ -18,7 +18,9 @@ The goal of this Home Lab Setup project is to practice installing Windows OS and
 ---
 ## Steps
 
-## VM Installation and Navigation
+## Hypervisor Installation and Navigation
+
+VMware is a type 1 hypervisor, meaning that it utilizes the hardware of its host machine to function. This is a huge benefit because it allows for direct hardware access, no host OS dependency, and has an entreprise focus. I will use VMware to run many virtual machines, starting with a Windows 10 and Linux VM. 
 
 1. I first navigated to VMware's website and downloaded **Vmware Workstation Pro for Windows**.
 2. Then, to ensure that no files were corrupted during the download, I used the **Get-FileHash** command in Powershell and compared the SHA256 strings.
@@ -70,6 +72,10 @@ The goal of this Home Lab Setup project is to practice installing Windows OS and
 3. To confirm the Vms deletion, I both checked the VM Library and my ~\Documents\Virtual-Machines folder (where all of my Vms are saved) for the VM.
 
 |-| After confirming the VMs deletion, I took a snapshot so that I can revert back to these fresh VMs whenever needed. 
+
+## Conclusion
+
+|-| In this project, I learned how to install and navigate a type-1 hypervisor (VMware) as well as install Windows and Linux to a VM. I also learned how to properly uninstall a VM. Windows and Linux are widely used in the IT and cybersecurity world to defend systems, networks, and organizations. As such, knowledge of how to install and use those two operating systems is very important, and this project has provided me with those skills. I also learned how to troubleshoot installation errors while trying to install Linux, as well as ways to correct them. 
 
 
 
